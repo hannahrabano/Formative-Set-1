@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## `1. SAVINGS`
-
-# In[29]:
+# In[1]:
 
 
 def savings(gross_pay, tax_rate, expenses):
@@ -40,9 +38,7 @@ def savings(gross_pay, tax_rate, expenses):
     return int(take_home_pay)
 
 
-# ## `2. MATERIAL_WASTE`
-
-# In[9]:
+# In[2]:
 
 
 def material_waste(total_material, material_units, num_jobs, job_consumption):
@@ -84,9 +80,7 @@ def material_waste(total_material, material_units, num_jobs, job_consumption):
     return str(wasted_material)+material_units
 
 
-# ## `3. INTEREST`
-
-# In[18]:
+# In[3]:
 
 
 def interest(principal, rate, periods):
